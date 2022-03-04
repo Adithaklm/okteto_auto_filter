@@ -120,7 +120,7 @@ async def next_page(bot, query):
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
-        return await query.answer("<b>ഒന്ന് പോടാപ്പാ</b> ❗️", show_alert=True)
+        return await query.answer("ഒന്ന് പോടാപ്പാ ❗️", show_alert=True)
     if movie_ == "close_spellcheck":
         return await query.message.delete()
     movies = SPELL_CHECK.get(query.message.reply_to_message.message_id)
@@ -776,7 +776,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?",
+    await msg.reply("നിങ്ങൾ സേർച്ച് ആക്കിയ മൂവി താഴെ കാണുന്ന ലിസ്റ്റില് ഉണ്ടെങ്കിൽ\nനിങ്ങൾക്ക് വേണ്ട സൈസ് നോക്കി ബട്ടൺ പ്രസ് ചെയ്യുക?",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 
