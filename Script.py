@@ -102,6 +102,8 @@ Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 """
+    FILESTORE_TXT = """PDAA MYRE"""
+    OWNER_TXT = """COMING SOON WAIT.. """
     STARO_TXT = """<b>ᴛʜɪs ɪs ʙᴏᴛ ғᴇᴀᴛᴜʀᴇ ᴄᴏᴍᴍᴀɴᴅs</b>"""
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
