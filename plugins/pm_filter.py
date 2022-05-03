@@ -424,7 +424,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('📯 ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ʙᴏᴛ ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs', callback_data='staro')
         ], [
             InlineKeyboardButton('🎗 ᴄʜᴀɴɴᴇʟ', url='https://t.me/film_hous'),
-            InlineKeyboardButton(🔖 ɢʀᴏᴜᴘ', url='https://t.me/film_housc')
+            InlineKeyboardButton('🔖 ɢʀᴏᴜᴘ', url='https://t.me/film_housc')
         ], [
             InlineKeyboardButton('🔐 ᴄʟᴏsᴇ', callback_data='close_data'),
             InlineKeyboardButton('🔮 ꜱᴛᴀᴛᴜꜱ', callback_data='stats')
