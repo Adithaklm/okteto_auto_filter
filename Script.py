@@ -102,6 +102,7 @@ Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 """
+    STARO_TXT = """<b>ᴛʜɪs ɪs ʙᴏᴛ ғᴇᴀᴛᴜʀᴇ ᴄᴏᴍᴍᴀɴᴅs</b>"""
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
 Name - {}
