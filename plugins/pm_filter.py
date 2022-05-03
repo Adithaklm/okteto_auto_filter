@@ -453,11 +453,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ᴍᴀɴᴜᴀʟ ғɪʟᴛᴇʀ', callback_data='manuelfilter'),
             InlineKeyboardButton('ᴀᴜᴛᴏ ғɪʟᴛᴇʀ', callback_data='autofilter'), 
-            InlineKeyboardButton('ғɪʟᴇ sᴛᴏʀᴇ', callback_data='autofilter')     
+            InlineKeyboardButton('ғɪʟᴇ sᴛᴏʀᴇ', callback_data='filestore')     
         ], [
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴs', callback_data='coct'),
             InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra'), 
-            InlineKeyboardButton('ᴏᴡɴᴇʀ', callback_data='extra')
+            InlineKeyboardButton('ᴏᴡɴᴇʀ', callback_data='owner')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'), 
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'), 
@@ -517,6 +517,26 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.CONNECTION_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "filestore":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='staro')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.FILESTORE_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "owner":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='staro')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.OWNER_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
