@@ -451,11 +451,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "staro":
         buttons = [[
-            InlineKeyboardButton('ᴍᴀɴᴜᴀʟ ғɪʟᴛᴇʀ', url='https://t.me/fh_bot_updates'),
-            InlineKeyboardButton('ᴀᴜᴛᴏ ғɪʟᴛᴇʀ', url='https://t.me/my_devs')
+            InlineKeyboardButton('ᴍᴀɴᴜᴀʟ ғɪʟᴛᴇʀ', callback_data='manuelfilter'),
+            InlineKeyboardButton('ᴀᴜᴛᴏ ғɪʟᴛᴇʀ', callback_data='autofilter'), 
+            InlineKeyboardButton('ғɪʟᴇ sᴛᴏʀᴇ', callback_data='autofilter')     
         ], [
-            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('🔐 ᴄʟᴏꜱᴇ', callback_data='close_data')
+            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴs', callback_data='coct'),
+            InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra'), 
+            InlineKeyboardButton('ᴏᴡɴᴇʀ', callback_data='extra')
+        ], [
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'), 
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'), 
+            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
