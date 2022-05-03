@@ -449,6 +449,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "staro":
+        buttons = [[
+            InlineKeyboardButton('ᴍᴀɴᴜᴀʟ ғɪʟᴛᴇʀ', url='https://t.me/fh_bot_updates'),
+            InlineKeyboardButton('ᴀᴜᴛᴏ ғɪʟᴛᴇʀ', url='https://t.me/my_devs')
+        ], [
+            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('🔐 ᴄʟᴏꜱᴇ', callback_data='close_data')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.STARO_TXT.format(temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
     elif query.data == "source":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
