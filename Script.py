@@ -102,7 +102,11 @@ Total Members = <code>{}</code>
 Added By - {}
 """
     FILESTORE_TXT = """PDAA MYRE"""
-    OWNER_TXT = """COMING SOON WAIT.. """
+    OWNER_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
+    
+• ꜰᴜʟʟ ɴᴀᴍᴇ : Aᴅɪᴛʜ ᴀᴋ
+• ᴜꜱᴇʀɴᴀᴍᴇ : @adpsycho
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href=https://t.me/my_devs>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
     STARO_TXT = """<b>ᴛʜɪs ɪs ʙᴏᴛ ғᴇᴀᴛᴜʀᴇ ᴄᴏᴍᴍᴀɴᴅs</b>"""
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
