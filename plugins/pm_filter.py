@@ -453,7 +453,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ᴍᴀɴᴜᴀʟ ғɪʟᴛᴇʀ', callback_data='manuelfilter'),
             InlineKeyboardButton('ᴀᴜᴛᴏ ғɪʟᴛᴇʀ', callback_data='autofilter'), 
-            InlineKeyboardButton('ғɪʟᴇ sᴛᴏʀᴇ', callback_data='filestorage')     
+            InlineKeyboardButton('ғɪʟᴇ sᴛᴏʀᴇ', callback_data='ok')     
         ], [
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴs', callback_data='coct'),
             InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra'), 
@@ -520,13 +520,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "filestorage":
+    elif query.data == "ok":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='staro')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.FILESTORAGE_TXT,
+            text=script.OK_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
