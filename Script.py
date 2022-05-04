@@ -109,7 +109,7 @@ Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 """
-    FILESTORAGE_TXT = """🗃️ <b>ғɪʟᴇ sᴛᴏʀᴀɢᴇ</b>
+    OK_TXT = """🗃️ <b>ғɪʟᴇ sᴛᴏʀᴀɢᴇ</b>
 
 A ᴍᴏᴅᴜʟᴇ ᴛᴏ ꜱᴛᴏʀᴇ ғɪʟᴇꜱ ɪɴ ʙᴏᴛ ᴅᴀᴛᴀʙᴀꜱᴇ ɪɴ ꜱɪᴍᴘʟᴇ ᴍᴇᴛʜᴏᴅ
 
