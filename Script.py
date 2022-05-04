@@ -113,7 +113,7 @@ A ᴍᴏᴅᴜʟᴇ ᴛᴏ ꜱᴛᴏʀᴇ ғɪʟᴇꜱ ɪɴ ʙᴏᴛ ᴅᴀᴛ�
     
 • ꜰᴜʟʟ ɴᴀᴍᴇ : Aᴅɪᴛʜ ᴀᴋ
 • ᴜꜱᴇʀɴᴀᴍᴇ : @adpsycho
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href=https://t.me/my_devs>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href=https://t.me/my_devs>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
     STARO_TXT = """<b>ᴛʜɪs ɪs ʙᴏᴛ ғᴇᴀᴛᴜʀᴇ ᴄᴏᴍᴍᴀɴᴅs</b>"""
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
