@@ -101,7 +101,7 @@ Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 """
-    FILESTORE_TXT = """PDAA MYRE"""
+    FILESTORAGE_TXT = """PDAA MYRE"""
     OWNER_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
 • ꜰᴜʟʟ ɴᴀᴍᴇ : Aᴅɪᴛʜ ᴀᴋ
